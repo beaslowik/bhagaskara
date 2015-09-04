@@ -28,30 +28,55 @@
         </p>
 
         <div class="box_jumbotron_icons">
+<<<<<<< HEAD
 
             <ul>
-                <li class="box_jumbotron_icons_icons box_jumbotron_about scrollElementMenu" data-href="about">
+                <li class="box_jumbotron_icons_icons box_jumbotron_about" data-href="about">
                     <img src="images/ico_about.png">
                 </li>
-                <li class="box_jumbotron_icons_icons box_jumbotron_team scrollElementMenu" data-href="team">
+                <li class="box_jumbotron_icons_icons box_jumbotron_team" data-href="team">
                     <img src="images/ico_team.png">
                 </li>
-                <li class="box_jumbotron_icons_icons box_jumbotron_services scrollElementMenu" data-href="services">
+                <li class="box_jumbotron_icons_icons box_jumbotron_services" data-href="services">
                     <img src="images/ico_services.png">
                 </li>
-                <li class="box_jumbotron_icons_icons box_jumbotron_portfolio scrollElementMenu" data-href="portfolio">
+                <li class="box_jumbotron_icons_icons box_jumbotron_portfolio" data-href="portfolio">
                     <img src="images/ico_portfolio.png">
                 </li>
-                <li class="box_jumbotron_icons_icons box_jumbotron_blog scrollElementMenu" data-href="blog">
+                <li class="box_jumbotron_icons_icons box_jumbotron_blog" data-href="blog">
                     <img src="images/ico_blog.png">
                 </li>
-                <li class="box_jumbotron_icons_icons box_jumbotron_contact scrollElementMenu" data-href="contact">
+                <li class="box_jumbotron_icons_icons box_jumbotron_contact" data-href="contact">
                     <img src="images/ico_contact.png">
                 </li>
             </ul>
         </div>
-        <div class="box_jumbotron_arrow box_jumbotron_icons_icons scrollElementMenu" data-href="menu">
+        <div class="box_jumbotron_arrow box_jumbotron_icons_icons" data-href="menu">
             <img src="images/ico_arrow_menu.png">
+=======
+            <div class="box_jumbotron_icons_icons box_jumbotron_about scrollElementMenu" data-href="about">
+                <img src="images/ico_about.png">
+            </div>
+            <div class="box_jumbotron_icons_icons box_jumbotron_team scrollElementMenu" data-href="team">
+                <img src="images/ico_team.png">
+            </div>
+            <div class="box_jumbotron_icons_icons box_jumbotron_services scrollElementMenu" data-href="services">
+                <img src="images/ico_sevices.png">
+            </div>
+            <div class="box_jumbotron_icons_icons box_jumbotron_portfolio scrollElementMenu" data-href="portfolio">
+                <img src="images/ico_portfolio.png">
+            </div>
+            <div class="box_jumbotron_icons_icons box_jumbotron_blog scrollElementMenu" data-href="blog">
+                <img src="images/ico_blog.png">
+            </div>
+            <div class="box_jumbotron_icons_icons box_jumbotron_contact scrollElementMenu" data-href="contact">
+                <img src="images/ico_contact.png">
+            </div>
+        </div>
+
+        <div class="box_jumbotron_icons_icons box_jumbotron_arrow scrollElementMenu" data-href="menu">
+            <img src="images/ico_arrow_jumbotron_03.png">
+>>>>>>> 4cc182bc3aab3e53de62770c4183e52fe51a8ba8
         </div>
     </div>
 </div>
