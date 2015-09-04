@@ -1,12 +1,9 @@
-I have used HTML, CSS and jQuery to produce this website. 
-Project of the website (.psd) I have received on class in Coder's Lab.
+HTML, CSS, jQuery
 
 TO DO:
-jQuery:
-  menu,
-  Our team - interactive galery,
-  portfolio,
-  form walidation,
-  portfolio - more photos,
+ - Our team,
+ - Our portfolio,
+ - Form validation,
 
-@media queries
+ - @media queries,
+ - web browsers compatibility.
