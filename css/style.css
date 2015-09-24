@@ -452,11 +452,6 @@ nav li:hover{
     width: 100%;
 }
 
-.portfolio_button_more{
-
-
-}
-
 /*==CONTACT*/
 .box_contact{
     margin: 4% auto;
@@ -481,12 +476,16 @@ nav li:hover{
     height: 40px;
 }
 
+.box_contact_form input[name=message]{
+   height: 160px;
+}
+
 .box_contact_form input:last-of-type{
-    height: 160px;
+    height: 40px;
+    width: 160px;
 }
 
 .box_contact_adress p:first-child{
     font-weight: 600;
     padding: 5% 0;
 }
-
