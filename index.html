@@ -170,14 +170,47 @@
 
       <div class="team_arrows_icons">
          <div class="team_arrow">
-            <span>&#60;</span>
+            <span id="arrow_left">&#60;</span>
          </div>
          <div class="team_arrow">
-            <span>&#62;</span>
+            <span id="arrow_right">&#62;</span>
          </div>
       </div>
 
-      <div class="team_column">
+      <div class="team_column hide_person">
+         <div class="team_ico_fourth">
+            <div class="fake_ico"></div>
+            <h3>Helena Bonham-Carter</h3>
+
+            <p>Manager</p>
+
+            <div class="fake_ico_small">
+               <span>f</span>
+            </div>
+            <div class="fake_ico_small">
+               <span>g</span>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="team_column hide_person">
+         <div class="team_ico_fourth">
+            <div class="fake_ico"></div>
+            <h3>Robert De Niro</h3>
+
+            <p>Manager</p>
+
+            <div class="fake_ico_small">
+               <span>f</span>
+            </div>
+            <div class="fake_ico_small">
+               <span>g</span>
+            </div>
+         </div>
+      </div>
+
+      <div class="team_column show_person">
          <div class="team_ico_first">
             <div class="fake_ico"></div>
             <h3>Anne Hathaway</h3>
@@ -193,7 +226,7 @@
          </div>
       </div>
 
-      <div class="team_column">
+      <div class="team_column show_person">
          <div class="team_ico_second">
             <div class="fake_ico"></div>
             <h3>Jean Reno</h3>
@@ -209,12 +242,44 @@
          </div>
       </div>
 
-      <div class="team_column">
+      <div class="team_column show_person">
          <div class="team_ico_third">
             <div class="fake_ico"></div>
             <h3>Quentin Tarantino</h3>
 
             <p>CEO/Art director</p>
+
+            <div class="fake_ico_small">
+               <span>f</span>
+            </div>
+            <div class="fake_ico_small">
+               <span>g</span>
+            </div>
+         </div>
+      </div>
+
+      <div class="team_column hide_person">
+         <div class="team_ico_fourth">
+            <div class="fake_ico"></div>
+            <h3>Johnny Deep</h3>
+
+            <p>Manager</p>
+
+            <div class="fake_ico_small">
+               <span>f</span>
+            </div>
+            <div class="fake_ico_small">
+               <span>g</span>
+            </div>
+         </div>
+      </div>
+
+      <div class="team_column hide_person">
+         <div class="team_ico_fourth">
+            <div class="fake_ico"></div>
+            <h3>Martin Scorsese</h3>
+
+            <p>Manager</p>
 
             <div class="fake_ico_small">
                <span>f</span>
@@ -338,69 +403,52 @@
       </div>
 
       <div class="portfolio_buttons">
-         <span class="uppercase text_gray">All</span>
-         <span class="uppercase text_gray">Web</span>
-         <span class="uppercase text_gray">Aps</span>
-         <span class="uppercase text_gray">Icons</span>
+         <span id="bt_all" class="uppercase text_gray">All</span>
+         <span id="bt_web" class="uppercase text_gray">Web</span>
+         <span id="bt_apps" class="uppercase text_gray">Apps</span>
+         <span id="bt_icons" class="uppercase text_gray">Icons</span>
       </div>
 
       <div class="box_portfolio_images text_gray">
 
-         <div class="portfolio_images first_img">
-            <img src="images/kwadratowe_obrazki_1_03.png" alt="Landscape with grass" data-portImg="web">
-
+         <div class="portfolio_images inline_block" data-web="true">
+            <img src="images/kwadratowe_obrazki_1_03.png" alt="Landscape with grass">
             <h3>Neque Porro Quisquam</h3>
-
             <p>web</p>
          </div>
 
-
-         <div class="portfolio_images second_img">
+         <div class="portfolio_images inline_block" data-web="true" data-apps="true">
             <img src="images/kwadratowe_obrazki_1_05.png" alt="Landscape with road through mountains">
-
             <h3>Neque Porro Quisquam</h3>
-
-            <p>web, apps, icons,</p>
+            <p>web, apps</p>
          </div>
 
-
-         <div class="portfolio_images third_img">
+         <div class="portfolio_images inline_block" data-apps="true" data-icons="true">
             <img src="images/kwadratowe_obrazki_1_07.png" alt="Photo of the city centre">
-
             <h3>Neque Porro Quisquam</h3>
-
-            <p>web, apps, icons,</p>
+            <p>apps, icons</p>
          </div>
 
-
-         <div class="portfolio_images fourth_img">
+         <div class="portfolio_images inline_block" data-apps="true" data-web="true">
             <img src="images/Kwadratowe_obrazki_2_03.png" alt="Photo of the bay">
-
             <h3>Neque Porro Quisquam</h3>
-
-            <p>web, apps, icons,</p>
+            <p>web, apps</p>
          </div>
 
-
-         <div class="portfolio_images fifth_img">
+         <div class="portfolio_images inline_block" data-icons="true">
             <img src="images/Kwadratowe_obrazki_2_05.png" alt="Photo of the sea with a motorboat">
-
             <h3>Neque Porro Quisquam</h3>
-
-            <p>web, apps, icons,</p>
+            <p>icons</p>
          </div>
 
-
-         <div class="portfolio_images sixt_img">
+         <div class="portfolio_images inline_block" data-web="true">
             <img src="images/Kwadratowe_obrazki_2_07.jpg" alt="Photo with the person on a bench">
-
             <h3>Neque Porro Quisquam</h3>
-
-            <p>web, apps, icons,</p>
+            <p>web</p>
          </div>
-
       </div>
-      <button class="portfolio_button_more uppercase text_white bt_confirm">Watch more</button>
+
+      <!-- <button class="portfolio_button_more uppercase text_white bt_confirm">Watch more</button> -->
    </div>
 
    <!--==GET IN TOUCH-->
